@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Page 2 </title>
+    <link rel="stylesheet" href="page2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="main">
+        <video autoplay loop muted plays-inline class="bg-clip">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+        
+        <div class="timerbox">
+            <span class="timer">Timer</span>
+            <span id="timer">5:00</span>
+        </div>
+        <div class="container">
+            
+            <div class="col">
+                <h3 id="questionBox">
+                    1) What is the function of a cache memory in a computer system?
+                </h3>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="first" value="a" required>
+                <label for="first">To manage network traffic</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="second" value="b" required>
+                <label for="second"> To display graphical user interfaces</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="third" value="c" required>
+                <label for="third">To perform complex mathematical calculations</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="fourth" value="d" required>
+                <label for="fourth">To store frequently accessed data for faster retrieval</label>
+            </div>
+            
+            <button id="submit">Next</button>
+        </div>
+
+    </section>
+    <script src="page2.js"></script>
+</body>
+
+</html>
